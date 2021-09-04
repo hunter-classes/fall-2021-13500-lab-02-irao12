@@ -3,6 +3,11 @@ Author: Ivan Rao
 Course: CSCI-135
 Instructor: Mike Zamansky
 Assignment: Lab 2D
+
+As the numbers approach two billion, the numbers start diverging because
+they are too large to be stored as ints. An int can only store
+4 bytes of data so when the number exceeds the limit, it starts to wrap
+and switch back and forth between negative and positive values.
 */
 
 #include <iostream>
